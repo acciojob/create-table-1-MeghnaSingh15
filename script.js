@@ -1,3 +1,4 @@
+window.onload = function() {
 function insert_Row() {
     //Write your code here
 	let btn = document.querySelector('input[type = "button"]');
@@ -9,6 +10,7 @@ function insert_Row() {
 		cell1.innerHTML = "NEW CELL1";
 		cell2.innerHTML = "NEW CELL2";
 	});
-  
-  
 }
+    insert_Row();
+}  
+
